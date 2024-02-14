@@ -310,7 +310,7 @@
 
     .menu-list-container{
         transition: 0.5s all ease-in-out;
-        width: 20rem;
+        width: 12rem;
         visibility: visible;
     }
 }
