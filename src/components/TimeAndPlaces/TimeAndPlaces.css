@@ -1,0 +1,50 @@
+/* .card-main-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100vw;
+
+}
+
+.heading{
+    margin-top: 100px;
+}
+
+.card {
+    border: 1px solid red;
+    background-color: transparent (222, 213, 213);
+    padding: 10px;
+    width: 25%;
+}
+
+.card-container {
+    background-color: white;
+    border: 2px solid transparent;
+    padding: 15px 10px;
+} */
+
+/* .container {
+    max-width: 800px;
+    margin: 0 auto;
+} */
+
+.images .img {
+    height: 200px;
+    width: 100%;
+}
+
+/* 
+.images {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    position: relative;
+} */
+
+.images .img img {
+    /* background-size: cover; */
+    width: 100%;
+    height: 100%;
+}
+

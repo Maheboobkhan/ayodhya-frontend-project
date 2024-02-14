@@ -1,0 +1,265 @@
+.agent-container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FF8649;
+    padding: 30px 0;
+}
+
+.agent-img{
+    width: 35%;
+    height: 200px;
+    margin-left: 1rem;
+    overflow: hidden;
+}
+
+.agent-img img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.agent-form{
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.agent-form h1{
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.agent-form p{
+    color: #333215;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.first-last-name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.email-phone{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.first-last-name input{
+    width: 30%;
+    margin: 1rem 0;
+    border-radius: 10px;
+    border: 2px solid #00DFDF;
+    background: #FFF;
+    display: flex;
+    padding: 10px 30px;
+    align-items: flex-start;
+    flex: 1 0 0;
+    font-size: 20px;
+}
+
+.email-phone input{
+    width: 30%;
+    margin: 1rem 0;
+    border-radius: 10px;
+    border: 2px solid #00DFDF;
+    background: #FFF;
+    display: flex;
+    padding: 10px 30px;
+    align-items: flex-start;
+    flex: 1 0 0;
+    font-size: 20px;
+}
+
+.message{
+    width: 93.5%;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: 2px solid #00DFDF;
+    background: #FFF;
+    display: flex;
+    padding: 20px 0px;
+    padding-left: 30px;
+    align-items: flex-start;
+    font-size: 20px;
+}
+
+.first-last-name input::placeholder{
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.email-phone input::placeholder{
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.checkbox{
+    display: flex;
+}
+
+.checkbox input[type="checkbox"]{
+    width: 25px;
+    cursor: pointer;
+}
+
+.checkbox p{
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 10px;
+    border: 1px solid #546286;
+    background: #000;
+    color: #FAFAFA;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(196, 191, 191);
+    color: black;
+}
+
+input[type="submit"]:active{
+    background: #000;
+    color: #FAFAFA;
+}
+
+@media screen and (max-width:768px) {
+    .agent-img{
+        width: 20%;
+        height: 100px;
+    }
+
+    .agent-form{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .agent-img{
+        display: none;
+    }
+
+    .agent-form{
+        padding: 0 10px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .checkbox input[type="checkbox"]{
+        width: 30px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .first-last-name{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+    .first-last-name input{
+        width: 95%;
+        padding: 20px 0;
+        margin: 0 0;
+        padding-left: 10px;
+    }
+
+    .first-last-name input[placeholder="First Name"]{
+        margin-top: 30px;
+    }
+
+    .email-phone{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+    .email-phone input{
+        width: 95%;
+        padding: 20px 0;
+        margin: 0 0;
+        padding-left: 10px;
+    }
+
+    .email-phone input[type="email"]{
+        margin-top: 30px;
+    }
+
+    .first-last-name input::placeholder{
+        padding-left: 20px;
+    }
+
+    .email-phone input::placeholder{
+        padding-left: 20px;
+    }
+
+    .message{
+        width: 90%;
+        padding: 30px 0;
+        margin: auto;
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+
+    .message::placeholder{
+        padding-left: 20px;
+    }
+
+    .checkbox input[type="checkbox"]{
+        width: 30px;
+    }
+
+    .agent-form h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .agent-form p{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

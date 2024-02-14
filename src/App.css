@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.App{
+  background: url('https://media.istockphoto.com/id/1064837008/photo/abstract-blurred-beautiful-interior-of-lobby-reception-condominium-background-with-bokeh.jpg?s=612x612&w=0&k=20&c=bdN6IcazvNdVlZ_s7uFMW1XO618wQlJ9l-_aIgvzGn4=');
+}

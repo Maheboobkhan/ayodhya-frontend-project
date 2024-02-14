@@ -1,0 +1,115 @@
+.footer-main-container{
+    background: #FFD984;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    background: #FFD984;
+}
+
+.footer-logo-container {
+    position: relative;
+    width: fit-content;
+}
+
+.footer-logo-container-2{
+    margin-right: auto;
+}
+
+.footer-logo-container img {
+    width: 10rem;
+    margin-left: 1.5rem;
+}
+
+.footer-logo-para {
+    color: #000;
+    font-family: 'Island Moments', cursive;
+    font-size: 0.6rem;
+    font-weight: 900;
+    line-height: normal;
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
+.footer-list-container {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+.footer-list-container li {
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.footer-list-container li:hover {
+    /* color: #c1bebe; */
+    color: rgb(151, 148, 148);
+    border-bottom: 1px solid rgb(151, 148, 148);
+    transition: 0.1s all ease-in-out;
+}
+
+.copyright-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    background-color: #FFD984;
+}
+
+.copyright-icons div span:hover{
+    color: gray;
+}
+
+.icons{
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+.icon:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:768px) {
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .footer-logo-container{
+        margin: auto;
+    }
+
+    .footer-list-container{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 0 10px;
+        /* width: 100%; */
+        margin-top: 20px;
+    }
+
+    .copyright-icons{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons{
+        gap: 3rem;
+        margin-top: 2rem;
+    }
+}

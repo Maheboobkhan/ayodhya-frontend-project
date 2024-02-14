@@ -1,0 +1,331 @@
+
+
+.banner-image {
+    min-height: 100vh;
+    width: 100vw;
+    opacity: 0.8;
+    background: url('https://www.aryavrittravels.com/wp-content/uploads/2023/10/Ram-Mandir-Ayodhya-Tour.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.navbar .customer-support-language {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.customer-support {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.customer-support p {
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+
+.customer-support-language .language{
+    display: flex;
+    align-items: center;
+}
+
+.customer-support-language .language span{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 0.5rem;
+}
+
+.navbar-container{
+    background: linear-gradient(#e0c3fc, #8ec5fc);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.navbar-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.logo-container {
+    position: relative;
+    width: fit-content;
+}
+
+.logo-container-2{
+    margin-right: auto;
+}
+
+.logo-container img {
+    width: 10rem;
+    margin-left: 1.5rem;
+}
+
+.logo-para {
+    color: #000;
+    font-family: 'Island Moments', cursive;
+    font-size: 0.6rem;
+    font-weight: 900;
+    line-height: normal;
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
+.list-container {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+.list-container li {
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.list-container li:hover {
+    /* color: #c1bebe; */
+    color: black;
+    border-bottom: 1px solid black;
+    transition: 0.2s all ease-in-out;
+}
+
+.login-btn {
+    border-radius: 10px;
+    background: #f05b10;
+    padding: 0.5rem 1.8rem;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #fff;
+    color: #f05b10;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-content .beleive {
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: normal;
+    background-color: #FFF;
+    border-radius: 15px;
+    padding: 0.8rem 1.5rem;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.banner-content h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Potta One";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 3.5rem;
+}
+
+.banner-content p {
+    width: fit-content;
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: auto;
+}
+
+.banner-content button {
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 10px;
+    background: #ea5004;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 0.8rem;
+}
+
+.banner-content button:hover {
+    background-color: white;
+    color: #ea5004;
+    cursor: pointer;
+}
+
+.menu-bar {
+    display: none;
+}
+
+.menu-bar div {
+    margin: 5px 0;
+    height: 3px;
+    width: 30px;
+    background-color: white;
+}
+
+.cross{
+    color: white;
+    display: none;
+}
+
+@media screen and (max-width: 1920px) and (min-width:1400px) {
+    .banner-content .beleive {
+        margin-top: 3rem;
+    }
+
+    .banner-content h1 {
+        font-size: 7rem;
+        margin-top: 12rem;
+    }
+
+    .banner-content p {
+        font-size: 2.2rem;
+    }
+
+    .banner-content button {
+        margin-top: 14rem;
+        font-size: 2rem;
+        padding: 1.5rem 3.5rem;
+    }
+
+    .list-container {
+        gap: 6rem;
+    }
+
+    .list-container li {
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+
+    .customer-support p {
+        font-size: 1.5rem;
+    }
+
+    .customer-support-language {
+        margin-right: 2rem;
+    }
+
+    .navbar-bar {
+        margin-top: 2rem;
+    }
+
+    .logo-container img {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner-content .beleive {
+        margin-top: 10rem;
+    }
+
+    .banner-content h1 {
+        margin-top: 10rem;
+    }
+
+    .banner-content button {
+        margin-top: 10rem;
+    }
+
+    .navbar-bar {
+        flex-direction: column;
+    }
+
+    .navbar-container {
+        flex-direction: column;
+    }
+
+    .banner-content p {
+        font-size: 1.4rem;
+    }
+
+    .navbar .customer-support-language {
+        display: flex;
+        justify-content: start;
+    }
+
+    .list-container {
+        display: none;
+    }
+
+    .menu-bar {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .cross {
+        display: block;
+        position: absolute;
+        font-size: 2rem;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .list-container {
+        gap: 100px;
+        min-height: 100vh;
+        width: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: #000;
+        position: absolute;
+        top: 4rem;
+        right: -4rem;
+        transition: 0.5s all ease-in-out;
+        visibility: hidden;
+    }
+
+    .list-container li {
+        margin-top: 40px;
+    }
+
+    .menu-list-container{
+        transition: 0.5s all ease-in-out;
+        width: 20rem;
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .customer-support-language{
+        flex-direction:column-reverse;
+    }
+    .customer-support-language .language{
+        margin-right: auto;
+        padding-left: 15px;
+    }
+
+    .customer-support-language .customer-support{
+        margin-right: auto;
+        margin-top: 10px;
+    }
+}

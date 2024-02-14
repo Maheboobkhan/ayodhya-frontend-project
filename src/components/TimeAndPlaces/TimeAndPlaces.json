@@ -1,0 +1,46 @@
+{
+    "events": [
+      {
+        "id": "1",
+        "title": "Ayodhya Ram Mandir Opening and Closing Time",
+        " summer time": " Morning Hours: 07:00 am - 11:00 am<br /> Evening Hours: 02:00 pm - 06:00",
+        " winter time":"Morning Hours: 07:00 am - 11:00 am<br />Evening Hours: 02:00 pm -06:00 pm",
+        "location": "Ayodhya Ram Mandir"
+      },
+      {
+        "id": "2",
+        "title": "Kanak Bhavan Opening and Closing Time",
+        " summer time": "Morning Hours: 08:00 am - 11:30 am<br />Evening Hours: 07:00 pm - 09:30 pm ",
+        " winter time":"Morning Hours: 08:00 am - 12:00 am<br />Evening Hours: 06:30 pm - 09:00 pm",
+        "location": "Kanak Bhavan"
+      }, 
+      {
+        "id": "3",
+        "title": "Tulsi Smarak Bhavan Opening and Closing Time",
+        "summer time": "Opening Hours: 10:00 am - 09:00 pm",
+        "winter time":">Opening Hours: 10:00 am -09:00 pm",
+        "location": "Tulsi Smarak Bhavan"
+      },
+      {
+        "id": "4",
+        "title": " Nageshwaranath Temple Opening and Closing Time",
+        "summer time": ">Opening Hours: 05:00 am - 08:00 pm",
+        "winter time":"Opening Hours: 05:00 am -08:00 pm",
+        "location": " Nageshwaranath Temple"
+      },
+      {
+        "id": "5",
+        "title": "Nageshwaranath Temple Aarti Opening and Closing Time",
+        "summer time": "Morning Hours: 05:00 am - 06:00 am<br />Evening Hours: 08:00 pm - 08:30 pm",
+        "winter time": "Morning Hours: 05:00 am - 06:00 am<br />Evening Hours: 08:00 pm - 08:30 pm",
+        "location": "Nageshwaranath Temple Aarti"
+      },
+      {
+        "id": "6",
+        "title": "Hanumangarhi Temple Aarti Opening and Closing Time",
+        "summer time": "Morning Hours: 07:30 am - 11:30 am<br />Evening Hours: 04:30 pm - 09:30 pm",
+        "winter time": "Morning Hours: 09:00 am - 11:00 am<br />Evening Hours: 04:00 pm - 09:00 pm",
+        "location": "Hanumangarhi Temple Aarti"
+      }
+    ]
+  } 

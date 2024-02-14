@@ -1,0 +1,23 @@
+{
+  "news": [
+    {
+      "title": "Title One",
+      "p": "Darshan Timings has been revised due to unexpected crowd in the temple.",
+      "p": "Now People travelling from different stated have an edge in the timings of ayodhya ram mandir darshan.",
+      "button":"Learn More"
+    },
+    {
+      "title": "Gold Crown of Ram:",
+      "p": "The decoration that has happend in the temple is made up of gold and ornaments that used on God Ram is gold and it was most         expensive one.",
+      "p": "The temple is made up of different chemicals so the age is almost of 1000 years.",
+"button":"Learn More"
+    },
+    {
+      "title": "Hundi Collections:",
+      "p": "Hundi was completely full in half day of first day darshan in ayodhya",
+      "p": "It was one of the most fastest hundi that was completely full in ayodhya ram mandir",
+      "button":"Learn More"
+    }
+  
+  ]
+}
