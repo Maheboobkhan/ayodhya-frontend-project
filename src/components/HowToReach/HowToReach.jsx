@@ -1,4 +1,4 @@
-import { React, useRef } from "react";
+import { React } from "react";
 import Slider from "react-slick";
 // import "./HowToReach.css";
 
@@ -51,7 +51,7 @@ const HowToReach = () => {
                 <Slider {...settings} style={{ overflow: 'hidden' }}>
                     <div class="card">
                         <div class="image-section">
-                            <img src="train-1.jpg" />
+                            <img src="train-1.jpg" alt="img" />
                         </div>
                         <div class="content">
                             <h4>By Train:</h4>
@@ -64,7 +64,7 @@ const HowToReach = () => {
                     </div>
                     <div class="card">
                         <div class="image-section">
-                            <img src="train-2.jpg" />
+                            <img src="train-2.jpg" alt="img" />
                         </div>
                         <div class="content">
                             <h4>By Road:</h4>
@@ -77,7 +77,7 @@ const HowToReach = () => {
                     </div>
                     <div class="card">
                         <div class="image-section">
-                            <img src="road-2.jpg" />
+                            <img src="road-2.jpg" alt="img" />
                         </div>
                         <div class="content">
                             <h4>By Air:</h4>

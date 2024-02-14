@@ -54,7 +54,7 @@ const NewsSection = () => {
                     <Slider {...settings} style={{ overflow: 'hidden' }}>
                         <div className="card">
                             <div className="image-section">
-                                <img src="rammandir.jpg" alt="" />
+                                <img src="rammandir.jpg" alt="img" />
                             </div>
                             <div className="content">
                                 <h4>Title One</h4><br />
@@ -76,7 +76,7 @@ const NewsSection = () => {
                         </div>
                         <div className="card">
                             <div className="image-section">
-                                <img src="rammandir.jpg" alt="" />
+                                <img src="rammandir.jpg" alt="img" />
                             </div>
                             <div className="content">
                                 <h4>Gold Crown of Ram:</h4><br />
@@ -97,7 +97,7 @@ const NewsSection = () => {
                         </div>
                         <div className="card">
                             <div className="image-section">
-                                <img src="rammandir.jpg" alt="" />
+                                <img src="rammandir.jpg" alt="img" />
                             </div>
                             <div className="content">
                                 <h4>Hundi Collections:</h4><br />

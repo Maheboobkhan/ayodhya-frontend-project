@@ -134,7 +134,7 @@ const NavbarWithBanner = () => {
 
     // Clear the interval on component unmount
     return () => clearInterval(intervalId);
-  }, []);
+  }, [backgroundIndex]);
 
   return (
     <div style={{position: 'relative'}}>
