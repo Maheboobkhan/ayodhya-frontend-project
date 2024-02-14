@@ -177,7 +177,7 @@ const NavbarWithBanner = () => {
               <ul
                 className={`list-container ${isOpen ? "menu-list-container" : ""}`}
               >
-                <li>Home</li>
+                <li className="first-li">Home</li>
                 <Link to="/blog" style={{textDecoration: 'none'}}><li>Blog</li></Link>
                 <li>About</li>
                 <li>Contact</li>
