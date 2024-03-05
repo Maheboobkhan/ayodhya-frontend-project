@@ -8,6 +8,7 @@ const ConnectWithOurAgent = () => {
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
     const [message, setMessage] = useState("");
+    const [agreementChecked, setAgreementChecked] = useState(false);
     
       const handleSubmit = (e) => {
         e.preventDefault();
@@ -48,7 +49,7 @@ const ConnectWithOurAgent = () => {
                     </div>
                     <textarea type="text" placeholder="Message" className="message" name="message" value={message} onChange={(e)=>setMessage(e.target.value)} required />
                     <div className="checkbox">
-                        <input type="checkbox" name="agreement" required />
+                        <input type="checkbox" name="agreement" checked={agreementChecked} onChange={() => setAgreementChecked(!agreementChecked)} required />
                         <p>I agree that braintree may contact me at the email address or phone number above.</p>
                     </div>
                     <input type="submit" value="Submit" />
