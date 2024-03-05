@@ -1,6 +1,6 @@
 import { React } from "react";
 import Slider from "react-slick";
-// import "./HowToReach.css";
+import "./HowToReach.css";
 
     
 const HowToReach = () => {
@@ -49,7 +49,7 @@ const HowToReach = () => {
                 </div>
                 <div class="cards">
                 <Slider {...settings} style={{ overflow: 'hidden' }}>
-                    <div class="card">
+                    <div class="howtoreach card">
                         <div class="image-section">
                             <img src="train-1.jpg" alt="img" />
                         </div>
@@ -62,7 +62,7 @@ const HowToReach = () => {
                             <p style={{paddingTop: '60px'}}>Posted on 31st</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="howtoreach card">
                         <div class="image-section">
                             <img src="train-2.jpg" alt="img" />
                         </div>
@@ -75,7 +75,7 @@ const HowToReach = () => {
                             <p style={{paddingTop: '60px'}}>Posted on 31st</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="howtoreach card">
                         <div class="image-section">
                             <img src="road-2.jpg" alt="img" />
                         </div>

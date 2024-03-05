@@ -29,6 +29,10 @@
     margin: 0 auto;
 } */
 
+.timeplaces-card{
+    min-height: 500px;
+}
+
 .images .img {
     height: 200px;
     width: 100%;

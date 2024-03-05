@@ -153,7 +153,7 @@ const NavbarWithBanner = () => {
           <div className="customer-support-language">
             <div className="customer-support">
               <p>Customer Support:</p>
-              <p>+91 99999 99999</p>
+              <p>+91 91217 20101</p>
             </div>
             <div
               className="language"

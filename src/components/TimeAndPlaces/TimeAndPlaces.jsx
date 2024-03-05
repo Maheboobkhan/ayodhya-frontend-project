@@ -40,7 +40,7 @@ const TimeAndPlaces = () => {
         <div className="card-main-container">
             <h1 className="heading">Time and Places</h1>
             <Slider {...settings} style={{ overflow: 'hidden' }}>
-                <div className="card">
+                <div className="timeplaces-card card">
 
 
 
@@ -64,7 +64,7 @@ const TimeAndPlaces = () => {
                 </div>
 
 
-                <div className="card">
+                <div className="timeplaces-card card">
                     
                         <h2 style={{ color: 'brown', fontFamily: 'Montserrat, sans-serif', fontSize: '22px', padding: '30px 0' }}>Kanak Bhavan Opening and Closing Time</h2>
                     
@@ -86,7 +86,7 @@ const TimeAndPlaces = () => {
 
 
 
-                <div className="card">
+                <div className="timeplaces-card card">
 
 
                     <h2 style={{ color: 'brown', fontFamily: 'Montserrat, sans-serif', fontSize: '22px', padding: '30px 0' }}>Tulsi Smarak Bhavan Opening and Closing Time</h2>
@@ -108,7 +108,7 @@ const TimeAndPlaces = () => {
 
 
 
-                <div className="card">
+                <div className="timeplaces-card card">
 
                     <h2 style={{ color: 'brown', fontFamily: 'Montserrat, sans-serif', fontSize: '22px', padding: '30px 0' }}>Nageshwaranath Temple Opening and Closing Time</h2>
 
@@ -129,7 +129,7 @@ const TimeAndPlaces = () => {
 
 
 
-                <div className="card">
+                <div className="timeplaces-card card">
 
                     <h2 style={{ color: 'brown', fontFamily: 'Montserrat, sans-serif', fontSize: '22px', padding: '30px 0' }}>Nageshwaranath Temple Aarti Time</h2>
 
@@ -153,7 +153,7 @@ const TimeAndPlaces = () => {
 
 
 
-                <div className="card" style={{ lineHeight: '-100px' }}>
+                <div className="timeplaces-card card" style={{ lineHeight: '-100px' }}>
 
                     <h2 style={{ color: 'brown', fontFamily: 'Montserrat, sans-serif', fontSize: '22px', padding: '30px 0' }}>Hanumangarhi Temple Opening and Closing Time</h2>
 
